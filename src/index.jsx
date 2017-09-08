@@ -112,7 +112,7 @@ class CalendarHeatmap extends React.Component {
     if (this.state.valueCache[index]) {
       return this.state.valueCache[index].tooltipDataAttrs;
     }
-    return this.getTooltipDataAttrsForValue({ date: null, count: null });
+    //return this.getTooltipDataAttrsForValue({ date: null, count: null });
   }
 
   getTooltipDataAttrsForValue(value) {
